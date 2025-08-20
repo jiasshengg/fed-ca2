@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+      
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- Linking stylesheets -->
+    <link href="../css/styles.css" rel="stylesheet">
+    <link href="../css/page1.css" rel="stylesheet">
+
+    <title> 
+    SP 70th Anniversary
+    </title>
+
+
+</head>
+<body>
+
+<!-- navbar, change background color of navbar, and made the top fixed -->
+<nav class="navbar navbar-expand-sm bg-light fixed-top">
+
+    <!-- 100% width -->    
+    <div class="container-fluid">
+
+      <!-- image of sp logo for brand -->
+      <a class="navbar-brand" href="#">
+        <img src="../images/sp-70-logo.png" alt="SP 70 Logo"> 
+      </a>
+
+      <!-- button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+        data-bs-target="#collapse" aria-controls="collapse" 
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> 
+      
+      <!-- makes navbar collapsible -->
+      <div class="collapse navbar-collapse" id="collapse">
+
+        <!-- links to other pages -->
+        <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="index.html" id="pg1">Home</a>
+            <a class="nav-link" href="page2.html" id="pg2">Plans & Achievements</a>
+            <a class="nav-link"  href="page3.html" id="pg3">Feedback</a>
+        </div>
+      </div>
+
+    </div>
+</nav>
+
+<br><br><br><!-- line breaks -->
+
+<!-- use bootstrap grid system and centered text -->
+<div class="col-md-12 text-center" id="top">
+
+  <br><br><!-- line breaks -->
+
+  <!-- header -->
+  <header>  
+    <!-- make text bold -->
+    <h1 class="fw-bold">Celebrating SP70th Anniversary</h1>
+  </header>
+  
+  <br> <!-- line break -->
+
+  <p>
+    Singapore Polytechnic (SP), known for being the first polytechnic in Singapore, was first established in 1954 on Prince Edward Road. 
+    By 1974,the construction of the campus on Dover Road began and was completed in 1978. On 7th July 1979, the campus on Dover Road was officially opened by 
+    Prime Minister Lee Kuan Yew.
+  </p>
+
+  <br> <!-- line break -->
+
+<!-- Carousel -->
+<div id="campusimg" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../images/sp-campus-old-2.jpg" alt="old campus">
+    </div>
+    <div class="carousel-item">
+      <img src="../images/sp-campus-now-3.jpg" alt="new campus">
+    </div>
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#campusimg" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#campusimg" data-bs-slide-to="1"></button>
+  </div>  
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#campusimg" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#campusimg" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+  </div>
+
+</div></div>
+
+<!-- figcaption -->
+<figcaption class="text-center">Hover over carousel to pause autoplay</figcaption>
+
+
+
+<br><br><!-- line breaks -->
+
+<!-- use bootstrap grid system and centered text -->
+<h3 class="col-md-12 text-center fw-bold" id="mid">
+  SP70's Highlights
+</h3> 
+
+
+<br><!-- line break -->
+
+<!-- use bootstrap grid system, jusitified content to cnter , flex items and flex wrao  -->
+<div class="col-md-12 justify-content-center d-flex flex-wrap" id="mid2">
+<div class="card overflow-hidden justify-content-center">
+  <img src="../images/poly50xsp70.jpg" class="card-img-top" alt="sp50 x sp70">
+  <div class="card-body position-absolute d-flex flex-column"> 
+    <h5 class="card-title fw-bold text-center">SP50 x SP70</h5>
+    <p class="card-text text-center">POLY50 celebrates SP's 70th anniversary! This year, 
+      participants will enjoy an exciting race focused on sustainability. We aim to inspire everyone 
+      to support a greener future. For the first time, the whole campus will be closed for a full round-campus 
+      relay race.
+    </p>
+    <a href="#card" class="btn">Sign Up</a>
+  </div>
+</div>
+
+<div class="card overflow-hidden justify-content-center">
+  <img src="../images/sp70book.jpg" class="card-img-top" alt="sp70 book">
+  <div class="card-body position-absolute d-flex flex-column"> 
+    <h5 class="card-title fw-bold text-center">SP70 Commemorative Book</h5>
+    <p class="card-text text-center">We have released a commemorative book titled 
+      "For All Ages, Singapore Polytechnic At Seventy" in honor of SP's 70th anniversary. 
+      It covers some of the people and events that have molded us over the years. 
+    </p>
+    <a href="#card" class="btn">Download the Book</a>
+  </div>
+</div>
+
+<div class="card overflow-hidden justify-content-center">
+  <img src="../images/sp70-music-festival.jpg" class="card-img-top" alt="sp50 x sp70">
+  <div class="card-body position-absolute d-flex flex-column"> 
+    <h5 class="card-title fw-bold text-center">SP70 Music Festival</h5>
+    <p class="card-text text-center">We celebrated our 70th anniversary with a music festival at SP. 
+      Despite the rain, thousands of attendees danced, especially during performances by local 
+      artists Marian Carmel, Rangga Jones, and Evan Low. The festival highlighted the importance of 
+      youth mental health and showed that mental health and music can go hand in hand. 
+    </p>
+    <a href="#card" class="btn">Learn More</a>
+  </div>
+</div>
+
+</div>
+
+  
+<br><br><!-- line breaks -->
+
+
+<!-- use bootstrap grid system and centered text -->
+<p class="col-md-12 text-center" id="future">
+  Being life-ready, work-ready, and world-ready is our mission, which embodies the essence of SP's DNA of becoming 
+  "future-ready." This passage from our commemorative book highlights three areas in which SP is setting the standard for 
+  progress:
+</p>
+
+
+<br><br><!-- line breaks -->
+
+<!-- centered text -->
+<div class="text-center" id="part3">
+<div class="row">
+
+  <!--modal 1-->
+  <div class="col-md-4">
+  <!-- adding img for modal -->
+  <img src="../images/personal-work-life.jpg" alt="personal work life">
+  <p>Personal/Work Life</p>
+  <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#worklife">
+  Read More
+  </button>
+  <div class="modal fade" id="worklife">
+    <!-- moved modal to center of the screen when opened -->
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Personal/Work Life</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>   
+        <!-- Modal body -->
+        <div class="modal-body">
+          Both personal and professional spheres are changing dramatically. Global connectivity 
+          is a fundamental component of SP's "future-ready" DNA. This involves encouraging an interest 
+          in the rest of the world and all of its diversity. Together with increasing one's ability to comprehend 
+          the needs of users, consumers, markets, and audiences, an international perspective also fosters empathy for 
+          individuals from different cultural backgrounds, which is essential in most professional domains.
+        </div>
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <br><br> <!-- line breaks -->
+
+  <!--modal 2-->
+  <div class="col-md-4">
+
+    <!-- adding img for modal -->
+    <img src="../images/industry-disruption.jpg" alt="industry disruptions"><p>Industry Disruptions</p>
+    <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#industry">
+      Read More
+    </button>
+    <div class="modal fade" id="industry">
+      <!-- moved modal to center of the screen when opened -->
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+    
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Industry Disruptions</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            With revolutionary advancements in fields like artificial intelligence (AI), machine learning,
+            the Internet of Things (IoT), and robotics, the entire industrial sector has grown considerably
+            more disruptive. In order to remain competitive in the future, SP must welcome and adjust to changes
+            in the industry, whether they come from advancements in technology or other changes in the workplace. 
+            The only way to protect yourself from the worst kind of disruption and displacement is to prepare for 
+            the future.
+          </div>
+    
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          </div>
+    
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br><br> <!-- line breaks -->
+
+  <!--modal 3-->
+  <div class="col-md-4">
+    <!-- adding img for modal -->
+    <img src="../images/global-shifts.jpg" alt="globsl shifts"><p>Global Shifts</p>
+    <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#global">
+      Read More
+    </button>
+    <div class="modal fade" id="global">
+      <!-- moved modal to center of the screen when opened -->
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Global Shifts</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body">
+          For the majority of people, climate change is the most important global issue currently facing the world. 
+          At Singapore Polytechnic, this subject is very important because efforts to make students more "future-ready" 
+          center on addressing sustainability, always from a comprehensive, big-picture perspective. One of the ten Common 
+          Core Curriculum modules, the Polytechnic's Sustainable Innovation Project (SIP), is where this commitment is most evident. 
+          Students work on this learning experience in their second year of study, culminating in a capstone project.
+        </div>
+  
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        </div>
+  
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+<br><br> <!-- line breaks -->
+
+
+<!--footer-->
+<footer class="col-md-12">
+
+<br>
+
+  <p class="socials">Follow Us :<br> <a href= "https://www.instagram.com/singaporepoly/" target=" " ><i class="bi bi-instagram"></i></a>
+    <a href="https://www.facebook.com/singaporepolytechnic" target=" "><i class="bi bi-facebook"></i></a>
+ 
+  </p>
+
+    <hr class="bottomline"> <!-- Horizontal Rule -->
+  
+  <br> <!-- line break -->
+
+  <div class="info">
+    <p><i class="bi bi-geo-fill"></i>500 Dover Road Singapore 139651</p>
+    <p><i class="bi bi-telephone-fill"></i>6775 1133</p>
+    <p><i class="bi bi-envelope-fill"></i>contactus@sp.edu.sg</p>
+  </div>
+
+<br>  <!-- line break -->
+
+</footer>  
+
+<!-- Javascripts Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!--Link JavaScript file-->
+<script src="../javascript/index.js" defer></script>
+
+</body>
+</html>
+
+<!-- citations -->
+
+<!-- 
+https://www.sp.edu.sg/sp70#stories
+https://www.sp.edu.sg/sp/about-sp/publications/sp70-for-all-ages
+https://www.sp.edu.sg/ccas/our-events/poly-50
+https://www.sp.edu.sg/sma/about-sma/our-achievements
+https://www.sp.edu.sg/engineering-cluster/eee/courses/full-time-diplomas/computer-engineering/achievements
+https://www.sp.edu.sg/engineering-cluster/eee/courses/full-time-diplomas/engineering-with-business/achievements
+https://www.sp.edu.sg/engineering-cluster/eee/courses/full-time-diplomas/electrical-electronic-engineering/achievements
+-->
+
+<!-- bootstrap icons citations-->
+<!--
+https://icons.getbootstrap.com/icons/instagram/
+https://icons.getbootstrap.com/icons/facebook/
+https://icons.getbootstrap.com/icons/geo-fill/
+https://icons.getbootstrap.com/icons/telephone-fill/
+https://icons.getbootstrap.com/icons/envelope-fill/
+-->

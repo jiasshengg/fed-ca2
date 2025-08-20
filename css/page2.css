@@ -1,0 +1,55 @@
+/* changed color */
+h1 {
+    color: #f6323e;
+}
+
+/* adjusted font size */
+p {
+    font-size : 20px ;
+}
+
+/* adjusted width, opacity and added transition  */
+.card {
+    width: 65%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+/* adjusted opacity */
+.card.visible {
+    opacity: 1;
+}
+
+/* adjusted font size */
+.card-title {
+    font-size : 1.2em ;
+
+}
+
+/* adjusted font size */
+.card-text {
+    font-size : 1em ;
+}
+
+/* adjusted font size */
+ul {
+    font-size : 20px ;
+}
+
+/* adjusted font size */
+li{
+    font-size :18px ;
+}
+
+/* fade in animation  */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+

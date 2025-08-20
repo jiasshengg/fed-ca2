@@ -1,0 +1,256 @@
+/* change color */
+h1, h3 {
+    color : #f6323e ;
+}
+
+/*  change font size and line height */
+p {
+    font-size : 20px ;
+    line-height: 1.5em ;
+}
+
+/* added padding to left and right sides */
+#top, #top_1, #mid, #future {
+    padding-left : 18% ;
+    padding-right : 18% ;
+}
+
+/* change border radius */
+.carousel-inner, img {
+    border-radius : 15px ;
+}
+
+/* aded padding and margin */
+#mid2 {
+    padding: 1% ;
+    margin-top: 5px; 
+}
+
+/* adjusted width and height and added border radius and margin */
+.card {
+    width : 310px ;
+    height :60vh ;
+    border-radius : 15px ;
+    margin: 15px ;
+}
+
+/* adjusted width height and right , added padding and border radius , changed background color 
+made backdrop filter blur , turned text color white , changed the opacity
+and added transition */
+.card-body {
+    width : 100% ;
+    height : 100% ;
+    right : -100% ;
+    padding: 25px ;
+    background-color: #f6323e ;
+    backdrop-filter: blur(5px) ;
+    border-radius : 5px ;
+    color : white ;
+    opacity : 85% ;
+    transition: 1s ;
+}
+
+/* changed right when hovered over */
+.card:hover .card-body {
+    right : 0 ;
+}
+
+/* adjusted height and width and object fit */
+.card img {
+    width : auto ;
+    height : auto ;
+    object-fit: cover ;
+}
+
+/* added paddinG and changed font size */
+.card-text {
+    padding : 5px ;
+    font-size : 17px ;
+}
+
+/* changed border style and change texts color to white */
+.card a { 
+    border : 2px solid white ;
+    color : white ;
+}
+
+/* adjusted font size */
+.modal-title {
+    font-size : 25px ; 
+}
+
+/* adjusted font size */
+.modal-body {
+    font-size : 18px ;
+}
+
+/* adjusted font size */
+figcaption {
+    font-size: 20px ;  
+} 
+
+/* added pading to left and right */
+#part3 {
+    padding-left : 10% ;
+    padding-right: 10% ;
+}
+
+/* adjusted width */
+#part3 img {
+    width :100% ;
+}
+
+/* change color of button when hovered over */
+#part3 .btn:hover {
+    color : #f6323e ;
+} 
+
+@media only screen and (max-width: 600px) {
+    /* adjusted width and height */
+    .carousel-inner img {
+        width : 100% ;
+        height : 100% ;
+    }
+
+    /* adjusted font size and line height  */
+    p {
+        font-size : 15px ;
+        line-height: 1.1em ;
+    }
+
+    /* changed padding size */
+    #top, #top_1, #mid, #future {
+        padding-left : 5% ;
+        padding-right : 5% ;
+    }
+
+    /* changed font size */
+    figcaption {
+        font-size: 10px ;
+    }
+    
+    /* made display inline-block and added padding to both left and right */
+    #part3 {
+        display :inline-block ;
+        padding-left : 27% ;
+        padding-right: 27% ;
+    }
+
+    /* adjusted width */
+    #part3 img {
+        width :100% ;
+    }
+    
+}
+
+@media only screen and (min-width : 601px) {
+    /* adjusted width and height */
+    .carousel-inner img {
+        width : 100% ;
+        height : 100% ;
+    }
+
+    /* adjusted font size and line height  */
+    p {
+        font-size : 17px ;
+        line-height: 1.2em ;
+    }
+
+    /* changed padding size */
+    #top, #top_1, #mid, #future {
+        padding-left : 7% ;
+        padding-right : 7% ;
+    }
+
+    /* changed font size */
+    figcaption {
+        font-size: 12px ;
+    } 
+
+    /* adjusted padding for both left and right */
+    #part3 {
+        padding-left : 27% ;
+        padding-right: 27% ;
+    }
+
+    /* adjusted width */
+    #part3 img {
+        width :100% ;
+    }
+    
+}
+
+@media only screen and (min-width : 768px) {
+    /* adjusted width and height */
+    .carousel-inner img {
+        width : 100% ;
+        height : 100% ;
+    }
+
+    /* adjusted font size and line height  */
+    p {
+        font-size : 18px ;
+        line-height: 1.3em ;
+    }
+
+    /* changed padding size */
+    #top, #top_1, #mid, #future {
+        padding-left : 10% ;
+        padding-right : 10% ;
+    }
+
+    /* changed font size */
+     figcaption {
+        font-size: 12px ;
+    } 
+    
+    /* adjusted padding for both left and right */
+    #part3 {
+        padding-left : 15% ;
+        padding-right: 15% ;
+    }
+
+    /* adjusted width */
+    #part3 img {
+        width :100% ;
+    }
+    
+}
+
+@media only screen and (min-width : 992px) {
+    /* adjusted width and height */
+    .carousel-inner img {
+        width : 100% ;
+        height : 100% ;
+    }
+
+    /* adjusted font size and line height  */
+    p {
+        font-size : 19px ;
+        line-height: 1.4em ;
+    }
+
+    /* changed padding size */
+    #top, #top_1, #mid, #future {
+        padding-left : 10% ;
+        padding-right : 10% ;
+    }
+
+    /* changed font size */
+    figcaption {
+        font-size: 15px ;
+    } 
+    
+    /* adjusted padding for both left and right */
+    #part3 {
+        padding-left : 13% ;
+        padding-right: 13% ;
+    }
+
+    /* adjusted width */
+    #part3 img {
+        width :100% ;
+    }
+    
+}
+
